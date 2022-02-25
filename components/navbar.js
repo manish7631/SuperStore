@@ -19,10 +19,10 @@ function navbar(){
             </div>
             <div>
                 <ul>
-                    <a href="signup.html">
+                    <a href="signin.html">
                         <li>Login</li>
                     </a>
-                    <a href="signin.html">
+                    <a href="signup.html">
                         <li> <span>|</span> Register</li>
                     </a>
                 </ul>
