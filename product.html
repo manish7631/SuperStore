@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/product.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/aef89a3861.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="NAV_DIV"></div>
+
+        <!-- --------------navbar_end------------------------------- -->
+        <div class="productpage">
+            <div class="btnp">
+
+                <button id="get_btn">Get</button>
+                <select id="sortByPrice">
+
+                    <option value="">sort by price</option>
+                    <option value="low">Low to High</option>
+                    <option value="high">High to Low</option>
+                </select>
+
+                <select id="sortByName">
+                    <option value="">sort by Name</option>
+                    <option value="asc">Ascending</option>
+                    <option value="dsc">Descending</option>
+                </select>
+
+
+
+
+
+            </div>
+            <div id="product_info"></div>
+        </div>
+
+        <!-- ----------------footer_start------------------------------- -->
+        <div id="footer"></div>
+    </div>
+
+</body>
+
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    let nav = document.getElementById("NAV_DIV")
+    nav.innerHTML = navbar()
+
+    import displayitems from "./scripts/product.js"
+
+    import footer from "./components/footer.js"
+    // console.log(footer)
+    let foot = document.getElementById("footer")
+    foot.innerHTML = footer()
+
+</script>

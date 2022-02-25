@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signin.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/aef89a3861.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="NAV_DIV"></div>
+
+        <!-- --------------navbar_end------------------------------- -->
+
+
+        <div class="cont">
+            <h4>Email</h4>
+            <input id="email" type="email" placeholder="Enter your email">
+            <h4>Password</h4>
+            <input id="pass" type="password" placeholder="Enter your password">
+            <div> <button id="btn">Sign In</button></div>
+        </div>
+
+        <!-- ----------------footer_start------------------------------- -->
+        <div id="footer"></div>
+    </div>
+
+</body>
+
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    let nav = document.getElementById("NAV_DIV")
+    nav.innerHTML = navbar()
+
+    import myfun from "./scripts/signin.js"
+
+    import footer from "./components/footer.js"
+    // console.log(footer)
+    let foot = document.getElementById("footer")
+    foot.innerHTML = footer()
+
+</script>

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+ /* border: 1px solid red;  */
+    width: 99%;
+     height: auto; 
+    margin: auto;
+}
+#pay{
+    border: 1px solid blue;
+    width: 60%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+    background-color: gray;
+    padding-left: 5%;
+    padding-top: 10px;
+    border-radius: 10px;
+} 
+input{
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+}
+#btn{
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    border: none;
+}

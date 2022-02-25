@@ -1,0 +1,111 @@
+#NAV_DIV> .nav{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid green; */
+    display: flex;
+ }
+  #NAV_DIV> .nav > .nav_left{
+     /* border: 1px solid blue; */
+     width: 25%;
+     height: 80px;
+     
+ }
+  #NAV_DIV> .nav > .nav_left > img{
+     width: 100%;
+     height: 70px;
+ }
+ #NAV_DIV> .nav > .nav_right{
+     /* border: 1px solid blue;  */
+    width: 75%;
+    height: 80px;
+}
+ #NAV_DIV> .nav > .nav_right > div{
+    width: 100%;
+    height: 38px;
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    
+}
+ #NAV_DIV> .nav > .nav_right > div > div{
+    width: 40%;
+    height: 38px;
+    /* border: 1px solid red; */
+    
+}
+ #NAV_DIV> .nav > .nav_right > div > div:nth-child(2){
+     display: flex; 
+     float: right; 
+    width: 15%;
+    height: 38px;
+     /* border: 1px solid red;  */
+     margin-left: 50%; 
+   
+}
+ #NAV_DIV> .nav > .nav_right > div > div > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+  .nav > .nav_right > div > div > ul > a{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 5px;
+}
+#NAV_DIV> .nav > .nav_right > div > div > ul > a > li{
+    
+    color: #393939;
+    font-family: 'Open Sans','Cabin','HelveticaNeueLTPro-Lt', sans-serif; 
+    font-family: CeraPRO-Regular;
+     font-weight: bold;
+}
+.nav_input_div >  div{
+    display: flex;
+}
+.nav_input_div >  div > div{
+    display: flex;
+   
+}
+.nav_input_div >  div > div> i{
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgb(50, 221, 50);
+    
+   
+}
+.nav_input_div > .nav_fav > a>i{
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgb(46, 192, 46);
+   
+}
+.nav_input_div >div> input{
+    width: 150px;
+    height: 35px;
+    /* border: none; */
+}
+.nav_input_div >div>div> input{
+   width: 290px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+/* ----------------first nav end ----------------------------------- */
+
+.nav_second{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.nav_second > ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_second > ul> a{
+     list-style: none;
+     text-decoration: none;
+     color: #393939;
+     font-size: 15px;
+     padding-top: 5px;
+     font-family: 'Open Sans','Cabin','HelveticaNeueLTPro-Lt', sans-serif; 
+     font-family: CeraPRO-Regular;
+      font-weight: bold;
+}

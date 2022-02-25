@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+ /* border: 1px solid red;  */
+    width: 99%;
+     height: auto; 
+    margin: auto;
+}
+ .totalitem{
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.totalitem > button{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: black;
+    border: none;
+    font-size: 18px;
+   
+}
+
+.cartpage{
+    width: 99%;
+    
+    /* border: 1px solid  green; */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cartitems{
+    width: 70%;
+    /* height: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.divMain{
+    width: 99%;
+    height: 200px;
+    /* border: 1px solid  red; */
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.Div{
+    /* border: 1px solid  blue; */
+    width: 82%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+ 
+.imagetag{
+    width: 50%;
+    height: 100px;
+    
+}
+.ptag{
+   font-family: Montserrat, sans-serif;
+   font-size: 18px;
+   font-weight: 800;
+   line-height: 19px;
+   color: rgb(51, 51, 51);
+}
+#check{
+    border: 1px solid grey;
+    border-radius: 8px;
+}

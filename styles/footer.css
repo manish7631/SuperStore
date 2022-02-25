@@ -1,0 +1,154 @@
+
+/* -----------------------fotter--------------------------- */
+
+.fotterpage{
+    width: 99%;
+    height: 300px;
+    /* border: 1px solid red;   */
+    margin-top: 10px;
+}
+.fotterpage > div{
+    width: 100%;
+    height: 360px;
+    /* border: 1px solid teal;  */
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin: auto;
+}
+  .firstfotter{
+    width: 100%;
+    height: 360px;
+    /* border: 1px solid green;  */
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+     
+    
+} 
+.ft_text > h5{
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+color: rgb(51, 51, 51);
+padding-bottom: 30px;
+}
+.ft_text > p{
+    font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.4px;
+color: rgb(51, 51, 51);
+padding-top: 18px;
+}
+.ft_text > hr{
+    width: 35px;
+    height: 2px;
+    background-color: black;
+     margin: auto;
+}
+ .secondfotter{
+   
+    width: 100%;
+    height: 360px;
+    /* border: 1px solid green;  */
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.secondfotter > h6{
+    font-family: Montserrat, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+color: rgb(51, 51, 51);
+padding-top: 10px;
+ 
+}
+
+.secondfotter > p{
+    font-family: Montserrat, sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.4px;
+color: rgb(51, 51, 51);
+padding-top: 10px;
+ 
+}
+ .secondfotter > #email{
+     width: 220px;
+     height: 35px;
+     margin-top: 10px;
+ }
+ .secondfotter > button{
+     background-color: #333333;
+     color: white;
+     padding:10px;
+     width: 140px;
+     border: none;
+     border-radius: 10px;
+     margin-top: 20px;
+
+ }
+ 
+  
+/* ------------------------fotter next------------------------ */
+
+.fotternext{
+    width: 99%;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+
+.fotterSocial{
+ /* border: 1px solid blue;  */
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.fotterSocial > .social{
+    /* border: 1px solid red;  */
+     width: 40%;
+     height: 40px;
+     display: flex;
+     justify-content: space-evenly;
+     margin-left: 70px;
+     padding-top: 10px;
+      
+}
+ .social > a > i{
+     padding-top: 5px;
+     color: #333333;
+     font-size: 16px;
+ }
+.social > h5{
+   
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(51, 51, 51);
+}
+.fotterSocial > .socialdownload{
+ /* border: 1px solid green;   */
+    width: 64%;
+    height: 40px;
+   
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+}
+.socialdownload > a > i{
+    color: #333333;
+    font-size: 16px;
+    
+}
+.fotterSocial > .socialdownload > h6{
+    
+    padding-top: 12px;
+    padding-left: 5px;
+}
+ 

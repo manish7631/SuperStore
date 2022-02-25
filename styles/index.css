@@ -1,0 +1,173 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .container{
+     /* border: 1px solid red; */
+     width: 99%;
+     /* height: auto; */
+     margin: auto;
+ }
+  
+/* ----------------------------------------nav-end---------------------------- */
+
+.slide{
+    width: 70%;
+    height: 270px;
+    /* border: 1px solid red; */
+}
+#dis{
+    width: 100%;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid blue; */
+}
+.imgtag{
+    width: 100%;
+    height: 270px;
+    border: 1px solid brown;
+}
+
+/* -----------------------sliding_end----------------------- */
+#product_inside{
+    width: 98%;
+    height: 210px;
+     /* border: 1px solid red;  */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 210px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding:10px;
+   
+}
+
+.productDiv{
+     width: 100%;
+     height: 210px;
+     /* border: 1PX solid green; */
+}
+
+.productDiv > .imgproduct{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid blue;  */
+}
+
+/* ----------------second_product_start---------------------- */
+.product_2{
+    width: 100%;
+    height: 450px;
+     /* border: 1px solid green;  */
+}
+.h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'CeraPRO-Regular';
+   
+}
+#dis2{
+    width: 98%;
+    height: 500px;
+    /* border: 1px solid red;   */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 210px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding:10px;
+}
+.producttext2{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red;   */
+    padding-top: 10px;
+    padding-left: 5px;
+}
+ .producttext2 > p:nth-child(1){
+   font-family: Montserrat, sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 19px;
+   color: #333;
+     
+}
+.producttext2 > p{
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 15px;
+   color: rgb(51, 51, 51);
+   line-height: 25px;
+  
+}
+
+
+/* -------------------third_product_start-------------------------- */
+
+.product_3{
+    width: 100%;
+    height: 460px;
+      /* border: 1px solid green;   */
+}
+.h2{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'CeraPRO-Regular';
+}
+#dis3{
+    width: 98%;
+    height: 460px;
+     /* border: 1px solid red;    */
+    margin: auto;
+    display: grid;
+    grid-template-rows: 210px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding:10px;
+}
+
+.price_given{
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 3px;
+    font-weight: 500;
+}
+.btncart{
+    width: 90px;
+    border-radius: 8px;
+}
+ .producttext3{
+    width: 100%;
+    height: 140px;
+    /* border: 1px solid red; */
+    text-align: center;   
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 20px;
+}
+
+.producttext3 > p:nth-child(1){
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: rgb(201, 9, 9);
+      
+}
+.producttext3 > p:nth-child(4){
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: rgb(201, 9, 9);
+}
+
+ 
