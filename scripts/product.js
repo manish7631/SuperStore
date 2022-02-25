@@ -48,7 +48,7 @@ var data = [
 
 var x =   [];
 
-var cart =    [];
+var cart = JSON.parse(localStorage.getItem("Super_cart")) ||  [];
 
 data.map(function(item){
     var obj = {
