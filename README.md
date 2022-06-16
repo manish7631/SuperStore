@@ -7,7 +7,7 @@ It is clone of Nature basket website. Nature’s Basket is India’s pioneering 
 Getting Started
 Want to run in your local Machine? Great!
 To run, follow these steps:
-Clone my repository https://github.com/sayanwastaken/Snapdeal-Clone_Team36b
+ 
 Open that code in your VSCode Editor
 Install Live Server extension
 Open Index.html
